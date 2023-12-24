@@ -1,0 +1,31 @@
+.search-one {
+    font-family: IRANSansX;
+    font-size: $__svg__size_16;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .search-one-style {
+        width: 90%;
+        border: 1px solid #9E9E9E;
+        border-radius: 50px;
+        // background-color: $_base_color_41;
+        background-color: $_base_color_white;
+        color: black;
+
+
+        input {
+            border: none !important;
+            outline: none !important;
+            background-color: $_base_color_white;
+            color: black;
+        }
+
+        input:focus {
+            border: none !important;
+            outline: none !important;
+        }
+    }
+
+}

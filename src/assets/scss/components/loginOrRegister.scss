@@ -1,0 +1,59 @@
+.login-or-register {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+    // .login-or-register_sections{
+
+    // }
+}
+
+// .login-code {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     .login-code-box {
+//         width: 100%;
+//         display: flex;
+//         justify-content: center;
+//         flex-direction: row-reverse;
+
+//         .login-code-box-child {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             width: 40px;
+//             height: 40px;
+//             border: 1px solid gray;
+//             margin: 10px;
+//             border-radius: 5px;
+//             text-align: center;
+//         }
+//     }
+
+// }
+
+// .get-loginOrRegister-code {
+
+//     .timer {
+//         color: $_base_color_green;
+//     }
+
+//     .login-code-box-child {
+//         outline: unset;
+//         outline-color: unset;
+//     }
+
+//     .login-code-box-child:focus {
+//         border: 1px solid $_base_color_green;
+//     }
+// }
+
+.forgot-link {
+    color: $_base_color_blue;
+}

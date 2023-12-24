@@ -1,0 +1,81 @@
+@mixin modalConfigByWidth($width : 900px, $background: white) {
+    position: fixed;
+    top: 50% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: $_base_color_41 !important; 
+    width: $width;
+}
+
+.modal-size-fitcontent {
+    width: calc(100vw - 10px) !important;
+}
+
+.modal-size-fitcontent-stylenone {
+    box-shadow: none;
+    background-color: none;
+    width: calc(100vw - 10px) !important;
+}
+
+.modal-size-fit {
+    @include modalConfigByWidth($width : auto)
+}
+
+.modal-size-xs {
+    @include modalConfigByWidth($width : 300px)
+}
+
+.modal-size-sm {
+    @include modalConfigByWidth($width : 435px)
+}
+
+.modal-size-md {
+    @include modalConfigByWidth($width : 600px)
+}
+
+.modal-size-lg {
+    @include modalConfigByWidth($width : 850px)
+}
+
+.modal-size-xl {
+    @include modalConfigByWidth($width : 900px)
+}
+
+.modal-size-xlg {
+    @include modalConfigByWidth($width : 1100px)
+}
+
+.modal-size-xxlg {
+    @include modalConfigByWidth($width : 1300px)
+}
+
+.modal-size-xxxlg {
+    @include modalConfigByWidth($width : 1450vh)
+}
+
+.modal-size-full {
+    @include modalConfigByWidth($width : 99vh)
+}
+
+.modal-size-height {
+    overflow: auto;
+    max-height: calc(100vh - 50px);
+}
+
+.modal-size-height-max {
+    overflow: auto;
+    max-height: calc(100vh - 220px) !important;
+}
+
+.modal-min-height {
+    overflow: auto;
+    max-height: 400px !important;
+}
+
+.modal-max-height-lg {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: calc(100vh - 120px) !important;
+}

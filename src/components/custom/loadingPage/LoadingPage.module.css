@@ -1,0 +1,20 @@
+.loadingPageCss {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100vh !important;
+    top: 0px !important;
+    right: 0px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white
+}
+
+
+.loadingPageContentCss {
+    width: 50% !important;
+    height: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

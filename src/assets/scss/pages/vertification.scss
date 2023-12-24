@@ -1,0 +1,24 @@
+.vertification {
+
+
+    .vertificationBox {
+        margin-top: 150px;
+        width: 600px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #101314;
+        background-color: #101314;
+
+        .vertificationInputs {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 2rem;
+            padding-right: 13px;
+            padding-top: 6px;
+            background-color: white;
+            color: #101314
+        }
+    }
+
+}

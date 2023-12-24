@@ -1,0 +1,32 @@
+//npx sass --watch src/assets/scss/main.scss src/assets/scss/custom.css
+
+/****** START UTILS ******/
+@import "utility/mixins.scss";
+@import "utility/variables.scss";
+/****** END UTILS ******/
+
+
+
+/******* START BASE *******/
+@import url("../fonts/IranSansX/Webfonts/fontiran.css");
+@import "base/base";
+@import "base/public.scss";
+/******* END BASE *******/
+
+
+
+/******* START COMPONENTS ******/
+@import "components/toastifyReact";
+@import "components/headerOne.scss";
+@import "components/modal.scss";
+@import "components/searchOne.scss";
+/******* END COMPONENTS ******/
+
+
+/****** START PAGES ******/
+@import "pages/pageNotFound.scss";
+@import "pages/home.scss";
+@import "pages/products.scss";
+@import "pages/users.scss";
+@import "pages/vertification.scss";
+/****** END PAGES ******/

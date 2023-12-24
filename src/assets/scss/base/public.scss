@@ -1,0 +1,63 @@
+.button-style-1 {
+    background-color: $_base_color_41 !important;
+    min-width: auto !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+.activeLinks * {
+    color: $_base_color_green !important;
+    text-shadow: 1px 1px 10px $_base_color_green;
+}
+
+.seperate-boxes {
+    margin-top: 30px;
+    border-top: 1px solid $_base_color_42 ;
+    width: 100%;
+}
+
+.MuiPaper-root {
+    background-color: $_base_color_41 !important;
+    color: white !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.logo {
+    background: #09e5ab;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 1px #09e5ab;
+}
+
+::backdrop {
+    background-image: linear-gradient(
+      45deg,
+      magenta,
+      rebeccapurple,
+      dodgerblue,
+      green
+    );
+    opacity: 0.75;
+  }

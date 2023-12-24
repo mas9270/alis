@@ -1,0 +1,11 @@
+.ToastifyStyle {
+    font-family: inherit;
+    font-size: 12px;
+    direction: rtl;
+    z-index: 100000 !important;
+}
+
+.Toastify {
+    z-index: 10000000;
+    position: absolute;
+}
